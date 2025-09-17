@@ -1,0 +1,1 @@
+-mcpu=cortex-m33 --specs=nano.specs -mthumb -ffunction-sections -fdata-sections -ffat-lto-objects -g -Wall -pipe -Wl,--gc-sections -T"bsps/TARGET_12kW_Secondary/TOOLCHAIN_GCC_ARM/linker_s_flash.ld" -Wl,-Map,@mapfile -Wl,--start-group @objs -Wl,--end-group -o @elffile

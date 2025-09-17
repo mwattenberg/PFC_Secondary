@@ -1,0 +1,7 @@
+Connect
+exec EnableEraseAllFlashBanks
+LoadFile C:/Users/wattenberg/mtw_3.4/12kW_Secondary/build/last_config/mtb-example-ce240786-empty-app.hex 0 reset
+
+Reset
+Go
+Exit
