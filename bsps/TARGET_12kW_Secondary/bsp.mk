@@ -66,4 +66,4 @@ DEVICE_PSC3M3FDS2LGQ1_SRAM_KB:=64
 DEVICE_TOOL_IDS:=bsp-assistant device-configurator dfuh-tool library-manager motor-suite-gui power-conversion-configurator project-creator smartio-configurator
 RECIPE_DIR:=$(SEARCH_recipe-make-cat1b)
 BSP_PROGRAM_INTERFACE=JLink
-BSP_PROGRAM_INTERFACE=KitProg3
+#BSP_PROGRAM_INTERFACE=KitProg3
