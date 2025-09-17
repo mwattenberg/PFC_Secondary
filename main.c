@@ -127,8 +127,6 @@ int main(void)
 
     init();
 
-    stest
-	sdsf
 
 
     for (;;)
