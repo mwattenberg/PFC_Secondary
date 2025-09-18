@@ -29,16 +29,19 @@ Release/
 
 # Eclipse IDE for ModusToolbox files. Comment those files if you want to track them
 .metadata/
-#.settings/
+.settings/
 #.cproject
 #.project
-#.mtbLaunchConfigs/
+.mtbLaunchConfigs/
 makefile.init
 
 # Visual Studio Code
 openocd.tcl
 .vscode/
 *.code-workspace
+
+.ninja_log
+
 
 # IAR Embedded Workbench files
 
